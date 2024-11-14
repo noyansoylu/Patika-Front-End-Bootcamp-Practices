@@ -6,20 +6,45 @@
     <title>Kişisel Blog</title>
 </head>
 <style>
-    .content-section {
-        border: 1px solid black;
-    }
 
-.content-section h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+.content-section {
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
-/* Paragrafın genişliğini sınırlama */
-.half-width {
-    width: 50%; /* Sayfanın yarısı kadar */
-    max-width: 50%;
-    margin-right: 20px;
+/* Başlık stili */
+.content-section h2 {
+    background-color: #f0f8ff;
+    color: #333;
+    font-size: 1.5em;
+    padding: 5px;
+    width: 100%;
+}
+
+.image-container {
+    max-width: 200px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+}
+
+.image-source {
+    font-size: 0.9em;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.image-source:hover {
+    text-decoration: underline;
 }
 </style>
 <body>
@@ -28,30 +53,42 @@
     </div>
     <section class="content-section">
         <h2>Kara Delikler</h2>
-        <p class="half-width">Kara delikler, evrendeki en gizemli ve yoğun yapılardan biridir. Bir yıldızın yaşam döngüsünün sonuna geldiğinde, çekirdeğinin çökmesiyle oluşurlar. Bu çöküş o kadar güçlüdür ki, yerçekimi ışığın bile kaçamayacağı kadar güçlü bir hal alır. Kara delikler, çevresindeki maddeyi ve ışığı yutarak uzayda adeta bir “boşluk” yaratır ve bu yüzden bilim insanları onların yapısını ve işleyişini anlamak için büyük çaba harcar.</p>
+        <p>Kara delikler, evrendeki en gizemli ve yoğun yapılardan biridir. Bir yıldızın yaşam döngüsünün sonuna geldiğinde, çekirdeğinin çökmesiyle oluşurlar. Bu çöküş o kadar güçlüdür ki, yerçekimi ışığın bile kaçamayacağı kadar güçlü bir hal alır. Kara delikler, çevresindeki maddeyi ve ışığı yutarak uzayda adeta bir “boşluk” yaratır ve bu yüzden bilim insanları onların yapısını ve işleyişini anlamak için büyük çaba harcar.</p>
         <ul>
             <li>Oluşum: Çok büyük yıldızlar hayatlarının sonunda çöker ve kara deliğe dönüşür.</li>
             <li>Çekim Gücü: Kara delikler o kadar güçlü bir çekim kuvvetine sahiptir ki, ışık bile kaçamaz.</li>
             <li>Olay Ufku: Kara deliklerin yüzeyine "olay ufku" denir; buradan geçen her şey kara delikte kaybolur.</li>
         </ul>
+        <div class="image-container">
+        <img src="blackhole.jpg" alt="Kara Delik" class="image">
+        <a href="https://www.jpl.nasa.gov/edu/resources/teachable-moment/how-scientists-captured-the-first-image-of-a-black-hole/" target="_blank" class="image-source">Resim Kaynağı</a>
+        </div>
     </section>
     <section class="content-section">
         <h2>Yıldızlar</h2>
-        <p class="half-width">Yıldızlar, uzaydaki devasa gaz toplarıdır ve çoğunlukla hidrojen ile helyumdan oluşurlar. Bu gazlar, yıldızın merkezinde sürekli bir nükleer füzyon süreciyle enerji açığa çıkarır. Yıldızlar bu enerji sayesinde parlak bir ışık yayarlar ve gezegenlere ısı ve ışık sağlarlar. Yıldızlar, kütlelerine ve özelliklerine göre çeşitli renklerde ve büyüklüklerde olabilir; bazıları birkaç milyon yıl, bazıları ise milyarlarca yıl boyunca ışıldayabilir.</p>
+        <p>Yıldızlar, uzaydaki devasa gaz toplarıdır ve çoğunlukla hidrojen ile helyumdan oluşurlar. Bu gazlar, yıldızın merkezinde sürekli bir nükleer füzyon süreciyle enerji açığa çıkarır. Yıldızlar bu enerji sayesinde parlak bir ışık yayarlar ve gezegenlere ısı ve ışık sağlarlar. Yıldızlar, kütlelerine ve özelliklerine göre çeşitli renklerde ve büyüklüklerde olabilir; bazıları birkaç milyon yıl, bazıları ise milyarlarca yıl boyunca ışıldayabilir.</p>
         <ul>
             <li>Yapı: Yıldızlar çoğunlukla hidrojen ve helyumdan oluşan devasa gaz toplarıdır.</li>
             <li>Enerji Kaynağı: Çekirdeklerinde meydana gelen nükleer füzyonla enerji üretirler.</li>
             <li>Ömür: Yıldızların yaşam süresi kütlelerine bağlıdır; büyük yıldızlar daha kısa ömürlüdür.</li>
         </ul>
+        <div class="image-container">
+        <img src="stars.jpg" alt="Yıldızlar" class="image">
+        <a href="https://webbtelescope.org/contents/media/images/2022/031/01G77PKB8NKR7S8Z6HBXMYATGJ" target="_blank" class="image-source">Resim Kaynağı</a>
+        </div>
     </section>
     <section class="content-section">
         <h2>Süpernovalar</h2>
-        <p class="half-width">Süpernovalar, büyük bir yıldızın yaşamının sonuna gelmesiyle gerçekleşen devasa patlamalardır. Bu patlamalar, yıldızın tüm enerjisini aniden serbest bırakarak çevresindeki uzaya güçlü bir ışık ve madde fırlatır. Süpernovalar, galaksilere yeni elementler kazandırır ve diğer yıldızların ve gezegenlerin oluşumu için gerekli malzemeleri sağlar. Aynı zamanda, evrenin genişlemesi ve yıldızların ömrü hakkında bilim insanlarına önemli bilgiler sunar.</p>
+        <p>Süpernovalar, büyük bir yıldızın yaşamının sonuna gelmesiyle gerçekleşen devasa patlamalardır. Bu patlamalar, yıldızın tüm enerjisini aniden serbest bırakarak çevresindeki uzaya güçlü bir ışık ve madde fırlatır. Süpernovalar, galaksilere yeni elementler kazandırır ve diğer yıldızların ve gezegenlerin oluşumu için gerekli malzemeleri sağlar. Aynı zamanda, evrenin genişlemesi ve yıldızların ömrü hakkında bilim insanlarına önemli bilgiler sunar.</p>
         <ul>
             <li>Patlama: Büyük kütleli bir yıldızın ölüm aşamasında ortaya çıkan devasa bir patlamadır.</li>
             <li>Element Dağılımı: Süpernovalar, demir ve oksijen gibi ağır elementleri evrene yayar.</li>
             <li>Yeni Yıldızlar: Süpernova kalıntıları yeni yıldızların ve gezegenlerin oluşumuna katkıda bulunur.</li>
         </ul>
+        <div class="image-container">
+            <img src="supernova.jpg" alt="Supernova" class="image">
+            <a href="https://webbtelescope.org/contents/media/images/2024/120/01J049D616EKYXVMNFKZZBWPCQ" target="_blank" class="image-source">Resim Kaynağı</a>
+            </div>
     </section>
 </body>
 </html>
