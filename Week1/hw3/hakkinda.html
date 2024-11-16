@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hakkında</title>
 </head>
 <style>
+    .content {
+    padding: 20px;
+    }
+
     .navigation {
     background-color: #3498db; 
     padding: 10px 0;
@@ -21,24 +25,31 @@
     }
 </style>
 <body>
-    <h1 style="text-align: center;">Rehber Web Sitesi</h1>
-    <nav class="navigation">
-        <ul class="list">
-        <a href="index.html">Ana Sayfa</a>
-        <a href="hakkinda.html">Hakkında</a>
-        <a href="servisler.html">Servisler</a>
-        <a href="iletisim.html">İletişim</a>
-        </ul>
-    </nav>
-    <div>
+    <!--Başlık ve navigasyon-->
+    <header>
+        <h1 style="text-align: center;">Rehber Web Sitesi</h1>
+        <nav class="navigation">
+            <ul class="list">
+            <a href="index.html">Ana Sayfa</a>
+            <a href="hakkinda.html">Hakkında</a>
+            <a href="servisler.html">Servisler</a>
+            <a href="iletisim.html">İletişim</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
         <h2>Hakkında</h2>
+        <!--Örnek paragraf-->
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis molestiae optio porro vel est asperiores at, minus modi a dolorem rem facilis, eius quidem dolores quasi autem ipsam quod.</p>
     </div>
-    <div>
+    <div class="content">
         <h2>Tarihçe</h2>
+        <!--Örnek liste-->
         <ol>
             <li>Libero explicabo optio exercitationem delectus aliquid fugiat reiciendis.</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Id voluptate reprehenderit aliquam nam culpa cupiditate rerum at recusandae, minus commodi dolore placeat.</li>
+            <li>Consectetur perferendis eius quod omnis quam ea provident minima impedit eligendi nulla.</li>
         </ol>
     </div>
 </body>

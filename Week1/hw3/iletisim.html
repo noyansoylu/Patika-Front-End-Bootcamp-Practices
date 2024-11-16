@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>İletişim</title>
 </head>
 <style>
+    .content {
+    padding: 20px;
+    }
+
     .navigation {
     background-color: #3498db; 
     padding: 10px 0;
@@ -19,17 +23,55 @@
     justify-content: center; 
     gap: 20px; 
     }
+
+    .form {
+    padding: 20px;
+    border: 2px solid grey;
+    max-width: 400px;
+    }
 </style>
 <body>
-    <h1 style="text-align: center;">Rehber Web Sitesi</h1>
-    <nav class="navigation">
-        <ul class="list">
-        <a href="index.html">Ana Sayfa</a>
-        <a href="hakkinda.html">Hakkında</a>
-        <a href="servisler.html">Servisler</a>
-        <a href="iletisim.html">İletişim</a>
-        </ul>
-    </nav>
-    <h2></h2>
+    <!--Başlık ve navigasyon-->
+    <header>
+        <h1 style="text-align: center;">Rehber Web Sitesi</h1>
+        <nav class="navigation">
+            <ul class="list">
+            <a href="index.html">Ana Sayfa</a>
+            <a href="hakkinda.html">Hakkında</a>
+            <a href="servisler.html">Servisler</a>
+            <a href="iletisim.html">İletişim</a>
+            </ul>
+        </nav>
+    </header>
+    <!--Paragraf ve liste örneği-->
+    <section class="content">
+    <h2><strong>İletişim:</strong></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, non doloremque voluptates animi reiciendis at quam quasi obcaecati voluptas, tempora sint quisquam iste alias molestias, vero rem vitae perspiciatis qui.</p>
+    <h2><strong>İletişim Bilgileri:</strong></h2>
+    <ul>
+        <li>Adres: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime debitis quaerat delectus vitae, aliquam atque provident distinctio molestiae voluptatibus non odit porro sunt magnam laboriosam, alias, quidem numquam ducimus odio.</li>
+        <li>Telefon: +90 999 999 9999</li>
+        <li>E-posta: lorem@ipsum.com</li>
+    </ul>
+    </section>
+    <!--Form örneği-->
+    <form class="form">
+        <div>
+            <label for="name">Ad:</label>
+            <input type="text" id="name" name="name"><br>
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="address">Mesaj:</label>
+            <textarea id="addresss" rows="5" cols="40"></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
 </body>
 </html>
