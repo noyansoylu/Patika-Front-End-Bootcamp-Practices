@@ -40,9 +40,64 @@ body {
 .navigation ul li a:active {
     color: #f4f4f4;
 }
-/* section */
+/* section (index) */
+.content {
+    background-color: #f4f4f4;
+    gap: 30px;
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.post1, .post2 {
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.post1 img, .post2 img {
+    width: 300px;
+    height: auto;
+    padding: 16px;
+}
+.directory {
+    color: #333;
+    text-decoration: none;
+}
 
-
+/* Blog post */
+.blog {
+    background-color: #f4f4f4;
+    gap: 30px;
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.blog-content {
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-content img {
+    width: 300px;
+    height: auto;
+    padding: 16px;
+}
+.blog-content h2 {
+    color: #333;
+}
 /* footer */
 .footer {
     text-align: center;
@@ -50,4 +105,6 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #333;
+    color: #f4f4f4;
 }
