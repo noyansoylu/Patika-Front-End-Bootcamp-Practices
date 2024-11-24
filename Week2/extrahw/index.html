@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Lorem ipsum dolor sit amet</p>
+    </header>
+    <form action="" id="survey-form">
+        <label for="name-label">Name:</label><br>
+        <input type="text" id="name-label" name="name"><br>
+        <label for="email-label">Email:</label><br>
+        <input type="email" id="email-label" name="email"><br>
+        <label for="number-label">Age:</label><br>
+        <input type="number" id="number-label" name="number" min="1" max="150"><br>
+        <select id="dropdown">
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+
+        <p>Where did you hear us?</p><br>
+        <input type="radio" id="platform1" name="platform1" value="Instagram"><br>
+        <label for="platform1">Instagram</label><br><br>
+        <input type="radio" id="platform2" name="platform2" value="Linkedin"><br>
+        <label for="platform2">Linkedin</label><br><br>
+        
+        <div class="checkbox">
+            <input type="checkbox" id="option1" name="option1" value="Terms"><br>
+            <label for="option1">Terms Of Service</label><br><br>
+            <input type="checkbox" id="option2" name="option2" value="Subscribe"><br>
+            <label for="option2">Subscribe For News</label><br><br>
+        </div>
+
+        <textarea name="message" rows="5" cols="15">Suggestions</textarea>
+        <input type="submit" id="submit">
+    </form>
+</body>
+</html>
