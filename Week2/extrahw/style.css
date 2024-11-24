@@ -34,7 +34,6 @@ form#survey-form {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Input fields */
 form input[type="text"],
 form input[type="email"],
 form input[type="number"],
