@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #31363E;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app {
+  text-align: center;
+}
+
+.game-result {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.game-result span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.dice {
+  width: 200px;
+  height: 200px;
+}
+
+.dice img {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background-color: green;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: lightgreen;
+}
+
+button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.player-name {
+  font-family: 'Cursive', sans-serif;
+  color: lightgreen;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+}
