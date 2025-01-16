@@ -1,8 +1,11 @@
-# React + Vite
+# Spend Bill Gates' Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun game which was cloned from [link](https://neal.fun/spend) for a homework included in Patika+ Front-End Web Developer Program.
 
-Currently, two official plugins are available:
+## Showcase
+[Click here to see it live](https://snazzy-shortbread-26397c.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Built With
+- **Frontend Framework**: React (using Vite for setup)
+- **Styling**: Bootstrap 5 and custom CSS
+- **Deployment**: Netlify
